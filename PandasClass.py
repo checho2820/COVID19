@@ -297,5 +297,5 @@ Fallecidos = data[data['Ubicación del caso'] == 'Fallecido']
 Fallecidos.groupby('Fecha de diagnóstico').size().plot(kind = 'bar')
 Recuperado = data[data['Recuperado'] == 'Recuperado']
 Recuperado.groupby('Fecha de diagnóstico').size().plot(kind = 'bar')
-plt.legend(["Recuperados", "Fallecidos", "Contagiados"])
+plt.legend(["Recuperados", "Fallecidos", "Contagiados"]) 
 
